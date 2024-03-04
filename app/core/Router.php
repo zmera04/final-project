@@ -3,21 +3,14 @@
 namespace app\core;
 
 use app\controllers\MainController;
-use app\controllers\UserController;
 
 class Router
 {
-    public $routeList = [
-        'users' => [
-            'controller' => UserController::class,
-            'GET' => 'getUsers',
-            'POST' => 'saveUsers'
-        ],
-        'view-users' => [
-            'controller' => UserController::class,
-            'GET' => 'getUsers',
-        ]
-    ];
+    public $routeList;
+    function __construct($routes)
+    {
+        $this->routeList = $routes;
+    }
 
     public function serveRoute() {
         $uriParse = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
