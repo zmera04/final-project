@@ -1,20 +1,16 @@
 <?php
 
 namespace app\models;
+use app\core\Model;
 
 class User
+
 {
+    use Model;
+
+    protected $table = 'users';
+
     public function getAllUsers() {
-        //in future this will come from the database
-        return [
-            [
-                'id' => '1',
-                'name' => 'pinecone'
-            ],
-            [
-                'id' => '2',
-                'name' => 'nathan'
-            ]
-        ];
+        return $this->findAll();
     }
 }

@@ -4,3 +4,4 @@ dist
 *.local
 ./public/assets/vite/node_modules
 .idea
+*.env
