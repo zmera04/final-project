@@ -1,16 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Portfolio: Zein Mera</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Other Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Zein Mera</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#extracurriculars">Extracurriculars</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contactme">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Zein
+                        <span class="text-primary">Mera</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        441 E. Fordham RD · Bronx, NY 10458 · (631) 939-1686 ·
+                        <a href="mailto:name@email.com">zmera@fordham.edu</a>
+                    </div>
+                    <p class="lead mb-5">I am a second-year college student studying Computer Science and Philosophy.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/zein-mera-954872228"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/zmera04"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Computer Science Peer Tutor</h3>
+                            <div class="subheading mb-3">Fordham University Computer Science Department</div>
+                            <p>Provide peer tutoring for students taking Computer Science classes at Fordham University. </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2024 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Resident Assistant</h3>
+                            <div class="subheading mb-3">Fordham University Office of Residential Life</div>
+                            <p>Foster community among residents and promote a safe, inclusive living environment by creating and hosting programs, and providing resources to residents on personal and academic matters. Enforce Office of Residential policies, provide rapid response to emergencies, collaborate with other staff members.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2023 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Tutor/Counselor</h3>
+                            <div class="subheading mb-3">Fordham University Science Technology Entry Program (STEP)</div>
+                            <p>Work as and assist instructors for an academic enrichment program for students from underrepresented minorities interested in STEM and licensed fields who live in New York State. Assisted in Geometry, Chemistry, Public Speaking, Robotics,  Algebra II/Trig, Ethics & Morality classes. Taught Precalculus and Calculus I classes. 
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2022 - Present</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Fordham University</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Computer Science Major</div>
+                            <div>Philosophy Minor</div>
+                            <p>GPA: 3.982</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2022 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">St. Anthony's High School</h3>
+                            <div class="subheading mb-3">Science Scholars Program</div>
+                            <p>GPA: 4.1</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2018 - May 2022</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Extracurriculars-->
+            <section class="resume-section" id="extracurriculars">
+                <div class="resume-section-content">
+                     <h2 class="mb-5">Extracurriculars</h2>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Fordham University Collegiate Science Technology Entry Program</h3>
+                            <div class="subheading mb-3">Scholar</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2022 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Fordham Philosopher's Society</h3>
+                            <div class="subheading mb-3">Treasurer</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2023 - Present</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Outside of my CS studies, I love reading literature and classics. I find philosophical fiction and Black fiction the most interesting. Aside from reading, I enjoy persuing creative projects through textile and paper mediums. My favorite medium is sketch drawing. 
+                    <p class="mb-0">I also enjoy spending time outside. I enjoy hiking, biking, and running. Being a college student, I don't get to spend a ton of time outside, but when I am I try to make the most of it. 
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Dean's List - Fordham University
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Outstanding Tutor Award - Fordham University STEP
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            AP Scholar with Distinction Award- College Board
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Fordham Scholarship- Fordham University
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            St. Bonaventure Award - St. Anthony's High School
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Resume-->
+            <section class="resume-section" id="resume">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">filler</h2>
+                </div>
+            </section>
+            <!-- Contact Me-->
+            <section class="resume-section" id="contactme">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Contact Me</h2>
+                    <form id="contactForm">
+                        <div class="row">
+                            <div class="col">
+                              <label for="firstnameInput">First Name:</label>
+                              <input type="text" class="form-control" id="firstnameInput" placeholder="First name">
+                            </div>
+                            <div class="col">
+                              <label for="lastnameInput">Last Name:</label>
+                              <input type="text" class="form-control" id="lastnameInput" placeholder="Last name">
+                            </div>
+                          </div>
+                        <div class="form-group">
+                          <label for="emailInput">Email address</label>
+                          <input type="email" class="form-control" id="emailInput" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                          <label for="messageInput">Message</label>
+                          <input type="text" class="form-control" id="messageInput" placeholder="Message">
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+                      </form>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>   
+</html>
+
 <?php
+    require_once "../app/core/Database.php";
+    require_once "../app/models/Post.php";
+    require_once "../app/models/Resume.php";
+    require_once "../app/controllers/PostController.php";
+    require_once "../app/controllers/ResumerController.php";
+    
+    //set our env variables
+    $env = parse_ini_file('../.env');
+    require '../app/core/config.php';
+    
+    use app\controllers\PostController;
+    use app\controllers\ResumeController;
+    
+    $uri = strtok($_SERVER["REQUEST_URI"], '?');  
+    $uriArray = explode("/", $uri);
 
-require_once '../app/core/init.php';
-require_once '../app/core/routes.php';
-$env = parse_ini_file('../.env');
-require '../app/core/config.php';
-
-use app\core\Router;
-
-require_once __DIR__ . '/helpers.php';
-
-//to add a new route add to the app/core/routes.php array
-$router = new Router($routes);
-$router->serveRoute();
+    if($_SERVER['REQUEST_METHOD'] === 'POST')
+    {
+        $contactController = new PostController();
+        $contactController->savePost();
+    }
+    if($_SERVER['REQUEST_METHOD'] === 'GET')
+    {
+        $contactController = new ResumeController();
+        $contactController->getResume();
+    }
 ?>
-
