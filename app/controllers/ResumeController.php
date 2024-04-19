@@ -8,9 +8,9 @@ class ResumeController
     public function getResume()
     {
         $ResumeModel = new Resume();
-        $resume = $ResumeModel->fetchResume();
-        include $resume;
-        exit();
+        $result = $ResumeModel->fetchResume();
+        
+        echo json_encode($result);
     }
 }
 ?>

@@ -3,37 +3,44 @@
 * Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
 */
-//
-// Scripts
-// 
-
-window.addEventListener('DOMContentLoaded', event => {
-
-    // Activate Bootstrap scrollspy on the main nav element
-    const sideNav = document.body.querySelector('#sideNav');
-    if (sideNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#sideNav',
-            rootMargin: '0px 0px -40%',
-        });
-    };
-
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
-    const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
-    );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                navbarToggler.click();
-            }
-        });
-    });
-
-});
 
 $(document).ready(function(){
+    // Function to update URL based on scroll position
+    function updateURL() {
+        var sections = $('.resume-section');
+        var scrollPosition = $(window).scrollTop();
+
+        // Find the current section
+        var currentSection = null;
+        sections.each(function(index, section) {
+            var sectionTop = $(section).offset().top;
+            var sectionBottom = sectionTop + $(section).outerHeight();
+            if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+                currentSection = section;
+            }
+        });
+
+        // Update URL based on the current section
+        if (currentSection) {
+            var sectionId = $(currentSection).attr('id');
+            var url = '#' + sectionId;
+            window.history.pushState({ path: url }, '', url);
+        }
+    }
+
+    // Call the updateURL function when the page loads
+    updateURL();
+
+    // Add event listener for scroll
+    $(window).scroll(function() {
+        updateURL();
+    });
+
+    $('#resumeButton').on('click', function(e){
+        console.log("hi");
+    });
+
+    // Submit form using AJAX
     $('#contactForm').on('submit', function(e){
         e.preventDefault();
         const firstName = $('#firstnameInput').val();
@@ -49,31 +56,33 @@ $(document).ready(function(){
         };
 
         $.ajax({
-            url:`http://localhost:8888/#contactme`,
+            url:`http://localhost:8888/`,
             type: "POST",
             data: data,
             dataType: "json",
             success: function(data){
                 console.log(data);
+                $('#contactForm').each(function(){
+                    this.reset();
+                })
             },
             error: function(data){
                 console.log("whoops theres an error");
             }
-        })
-    })
-    $()
-})
+        });
+    });
 
-/*
-    $.ajax({
-        url: `http://localhost:8888/#resume`,
-        type: "GET",
-        dataType: "json",
-        success: function(data){
-            console.log("success");
-        },
-        error: function(data){
-            console.log("an error has occurred");
+    // Collapse responsive navbar when toggler is visible
+    $('.nav-link').click(function() {
+        const navbarToggler = $('.navbar-toggler');
+        if (navbarToggler.is(':visible')) {
+            navbarToggler.click();
         }
-    })
-*/
+    });
+
+    // Activate Bootstrap scrollspy on the main nav element
+    $('body').scrollspy({
+        target: '#sideNav',
+        offset: -40
+    });
+});

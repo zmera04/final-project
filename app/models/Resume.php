@@ -4,13 +4,13 @@ namespace app\models;
 //using the database class namespace
 use app\core\Database;
 
-class Post
+class Resume
 {
     use Database;
 
-    public function savePost($data)
+    public function fetchResume()
     {
-        $query = 'select * from resume';
+        $query = 'SELECT source FROM `RESUME` WHERE id=1';
         return $this->fetchAll($query);
     }
 }

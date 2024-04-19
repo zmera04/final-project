@@ -1,0 +1,16 @@
+<script>
+    $(document).ready(function(){
+        //Getting Resume when nav clicked
+        $.ajax({
+            url: `http://localhost:8888/resume`,
+            type: "GET",
+            dataType: "json",
+            success: function(data){
+                console.log("success");
+            },
+            error: function(data){
+                console.log("an error has occurred");
+            }
+        })
+    });
+</script>
