@@ -22,7 +22,6 @@
     }
     if($uri === '/resume' && $_SERVER['REQUEST_METHOD'] === 'GET')
     {
-        echo "hello";
         $contactController = new ResumeController();
         $contactController->getResume();
     }

@@ -37,7 +37,18 @@ $(document).ready(function(){
     });
 
     $('#resumeButton').on('click', function(e){
-        console.log("hi");
+        $.ajax({
+            url: `http://localhost:8888/resume`,
+            type: "GET",
+            dataType: "json",
+            success: function(data){
+                console.log(data[0].source);
+                window.open(data[0].source,'_blank');
+            },
+            error: function(data){
+                console.log(data);
+            }
+        })
     });
 
     // Submit form using AJAX
