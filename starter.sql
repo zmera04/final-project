@@ -15,4 +15,4 @@ CREATE TABLE `resume`
 );
 
 insert into resume(source)
-values("img/resume 2023-4.pdf");
+values("https://drive.google.com/file/d/1p1r3PZfij19pM9jS_lD9-UNiIerYLR5w/view?usp=sharing");
